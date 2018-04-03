@@ -1,7 +1,47 @@
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #e5d352;
+}
+
 header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 90vh;
+}
+
+header h1 {
+  font-size: 55px;
+}
+
+#icons {
+  font-size: 50px;
+}
+
+#icons a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* cor retirada do site https://brandcolors.net/ */
+#icons a .fa-github {
+  color: black;
+}
+
+#icons a .fa-twitter {
+  color: #1da1f2;
+}
+
+#icons a .fa-facebook {
+  color: #3b5998;
+}
+
+#icons a .fa-linkedin {
+  color: #0077b5;
+}
+
+#icons a .fa-medium {
+  color: #00ab6c;
 }
