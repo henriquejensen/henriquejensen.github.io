@@ -1,7 +1,8 @@
 body {
   margin: 0;
   height: 100%;
-  background-color: #e5d352;
+  background-color: #fedc32;
+  font-family: 'Merriweather', serif;
 }
 
 header {
@@ -13,15 +14,15 @@ header {
 }
 
 header h1 {
-  font-size: 55px;
+  font-size: 70px;
 }
 
 #icons {
-  font-size: 50px;
+  font-size: 70px;
 }
 
 #icons a {
-  margin: 0 10px;
+  margin: 0 15px;
   text-decoration: none;
 }
 
