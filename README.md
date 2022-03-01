@@ -1,9 +1,6 @@
-# henriquejensen.github.io
+# My personal website
 
-My personal website
+## Stacks
 
-### To do list
-
-* [ ] Make the site responsible
-* [ ] Make a icon
-* [ ] Put some personal projects
+- React
+- Typescript
