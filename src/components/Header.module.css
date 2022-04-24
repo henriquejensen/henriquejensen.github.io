@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 0;
+  width: 100%;
+}
+
+.container div {
+  font-weight: bold;
+}
+
+.container ul {
+  display: flex;
+}
+
+.container li {
+  margin-right: 3rem;
+}
+
+.container li:last-child {
+  margin-right: 0;
+}

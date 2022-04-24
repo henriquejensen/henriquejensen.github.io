@@ -2,7 +2,7 @@ import styles from './Header.module.css';
 
 function Menu() {
   return (
-    <header>
+    <header className={styles.container}>
       <div>Henrique Jensen</div>
       <nav>
         <ul>
