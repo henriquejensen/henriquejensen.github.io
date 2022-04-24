@@ -1,6 +1,7 @@
-import Menu from "./components/Menu";
+import Menu from "./components/Header";
 import Logo from "./images/my.svg";
 import Project from "./images/project.svg";
+import './App.css';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
               Project
             </a>
             <a type="button" href="google.com">
-              LinkedIn
+              LinkedIn 3
             </a>
           </div>
           <img src={Logo} alt="" />
