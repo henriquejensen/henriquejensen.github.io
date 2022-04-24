@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Epilogue:wght@100;200;700&display=swap');
+
 :root {
   --main-color: #E5E5E5;
   --accent: #FDC435;
@@ -6,6 +8,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  font-family: 'Comfortaa', cursive, 'Epilogue', sans-serif;
 }
 
 *, *:before, *:after {
@@ -29,4 +32,12 @@ img {
 
 body {
   background-color: var(--main-color);
+}
+
+.container-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 75rem;
+  margin: 0 auto;
 }

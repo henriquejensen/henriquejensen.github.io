@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   return (
-    <>
+    <section className="container-app">
       <Menu />
 
       <section>
@@ -54,7 +54,7 @@ function App() {
           </section>
         </footer>
       </main>
-    </>
+    </section>
   );
 }
 
