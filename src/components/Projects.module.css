@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 12rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.container h2 {
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}

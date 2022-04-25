@@ -1,0 +1,32 @@
+.container {
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 62rem;
+  min-height: 33rem;
+}
+
+.content {
+  flex: 1;
+  padding: 0 3rem;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+}
+
+.content p {
+  margin: 1.5rem 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+.content a {
+  color: var(--black);
+  display: block;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  width: 9rem;
+  border: 1px solid var(--light-black);
+  border-radius: 1.5rem;
+}

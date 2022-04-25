@@ -35,7 +35,7 @@
 
 .card a {
   color: var(--black);
-  padding: 8px 32px;
+  padding: 0.5rem 2rem;
   background: var(--accent);
   border-radius: 8px;
   margin: 0px 12px;
