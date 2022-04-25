@@ -2,6 +2,7 @@ import Menu from "./components/Header";
 import Project from "./images/project.svg";
 import './App.css';
 import LogoContainer from "./components/LogoContainer";
+import Intro from "./components/Intro";
 
 function App() {
   return (
@@ -10,23 +11,8 @@ function App() {
 
       <LogoContainer />
 
-      <main>
-        <section>
-          <h3>Front end Engineer</h3>
-          <h1>Hello, my name is Henrique Jensen</h1>
-          <p>
-            Short text with details about you, what you do or your professional
-            career. You can add more information on the about page.
-          </p>
-          <div>
-            <a type="button" href="google.com">
-              Project
-            </a>
-            <a type="button" href="google.com">
-              LinkedIn 3
-            </a>
-          </div>
-        </section>
+      <main className="container-main">
+        <Intro />
         <section>
           <h2>Projects</h2>
           <section>

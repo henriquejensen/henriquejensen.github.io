@@ -1,0 +1,49 @@
+.container {
+  max-width: 35rem;
+  height: 25.5rem;
+  margin-top: 6.9rem;
+}
+
+.container h2 {
+  color: var(--accent);
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  text-transform: uppercase;
+}
+
+.card {
+  border: 1px solid #000000;
+}
+
+.card h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+}
+
+.card p {
+  color: var(--light-gray);
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+
+.card a {
+  color: var(--black);
+  padding: 8px 32px;
+  background: var(--accent);
+  border-radius: 8px;
+  margin: 0px 12px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Nunito', sans-serif;
+}
+
+.card a:first-child {
+  margin-left: 0;
+}
+
+.card a:last-child {
+  background: transparent;
+  border: 2px solid var(--light-black);
+}

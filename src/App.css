@@ -1,14 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Epilogue:wght@100;200;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Nunito&family=Playfair+Display:wght@700&display=swap');
 
 :root {
   --main-color: #E5E5E5;
   --accent: #FDC435;
+  --black: #000;
+  --light-black: #25282B;
+  --light-gray: #828282;
 }
 
 html {
   box-sizing: border-box;
   font-size: 16px;
-  font-family: 'Comfortaa', cursive, 'Epilogue', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 
 *, *:before, *:after {
@@ -41,4 +45,8 @@ body {
   max-width: 75rem;
   margin: 0 auto;
   position: relative;
+}
+
+.container-main {
+  width: 100%;
 }
