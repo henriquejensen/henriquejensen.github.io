@@ -1,0 +1,13 @@
+.container {
+  position: absolute;
+  z-index: -1;
+  max-width: 45rem;
+  max-height: 40rem;
+  right: -8rem;
+}
+
+.background {
+  position: absolute;
+  left: 0;
+  z-index: -2;
+}

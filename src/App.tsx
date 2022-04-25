@@ -1,16 +1,14 @@
 import Menu from "./components/Header";
-import Logo from "./images/my.svg";
 import Project from "./images/project.svg";
 import './App.css';
+import LogoContainer from "./components/LogoContainer";
 
 function App() {
   return (
     <section className="container-app">
       <Menu />
 
-      <section>
-        <img src="" alt="" />
-      </section>
+      <LogoContainer />
 
       <main>
         <section>
@@ -28,7 +26,6 @@ function App() {
               LinkedIn 3
             </a>
           </div>
-          <img src={Logo} alt="" />
         </section>
         <section>
           <h2>Projects</h2>
