@@ -16,6 +16,10 @@
   flex: 1;
 }
 
+.image {
+  border-radius: 0 1.5rem 1.5rem 0;
+}
+
 .content h1 {
   font-size: 2.5rem;
 }

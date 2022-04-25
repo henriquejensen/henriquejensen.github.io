@@ -13,7 +13,7 @@ export default function Intro() {
       <section className={styles.card}>
         <h1>Hello, my name is Henrique Jensen</h1>
         <p>
-          I have been working as Front end since 2015.
+          I have been working as a Front end developer since 2015.
           I like to build UI with <span>React</span>, test with <span>RTL</span>,
           managing the state using <span>Redux</span> or <span>React Context</span> and add styles with <span>Styled Components</span>.
         </p>
