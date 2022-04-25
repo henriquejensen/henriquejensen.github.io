@@ -11,3 +11,9 @@
   font-size: 3rem;
   margin-bottom: 5rem;
 }
+
+@media ( max-width: 53rem ) {
+  .container {
+    margin-top: 0;
+  }
+}

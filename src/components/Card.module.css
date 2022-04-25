@@ -38,3 +38,9 @@
   border: 1px solid var(--light-black);
   border-radius: 1.5rem;
 }
+
+@media ( max-width: 53rem ) {
+  .container {
+    flex-direction: column;
+  }
+}

@@ -7,7 +7,7 @@
   --black: #000;
   --light-black: #25282B;
   --light-gray: #828282;
-  --white: white
+  --white: white;
 }
 
 html {
@@ -32,7 +32,7 @@ ol, ul {
 
 img {
   height: auto;
-  width: auto;
+  width: 100%;
 }
 
 body {
@@ -44,7 +44,7 @@ body {
   flex-direction: column;
   align-items: center;
   max-width: 75rem;
-  margin: 0 auto;
+  margin: 0 1.2rem;
   position: relative;
 }
 

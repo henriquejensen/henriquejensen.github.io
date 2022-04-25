@@ -11,3 +11,9 @@
   left: 0;
   z-index: -2;
 }
+
+@media ( max-width: 53rem ) {
+  .container {
+    max-width: 35rem;
+  }
+}
