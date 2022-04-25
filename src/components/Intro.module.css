@@ -1,6 +1,6 @@
 .container {
   max-width: 35rem;
-  height: 25.5rem;
+  min-height: 25.5rem;
   margin-top: 6.9rem;
 }
 
@@ -26,6 +26,11 @@
   font-family: 'Nunito', sans-serif;
   font-size: 1.5rem;
   margin: 2rem 0;
+}
+
+.card p span {
+  color: var(--black);
+  font-weight: bold;
 }
 
 .card a {
