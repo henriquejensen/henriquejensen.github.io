@@ -1,6 +1,12 @@
 import styles from './Intro.module.css';
 
+const LINKEDIN = 'https://br.linkedin.com/in/henriquejensen';
+const GITHUB = 'https://github.com/henriquejensen'
+
 export default function Intro() {
+
+
+
   return (
     <section className={styles.container}>
       <h2>Front end Engineer</h2>
@@ -12,10 +18,10 @@ export default function Intro() {
           managing the state using <span>Redux</span> or <span>React Context</span> and add styles with <span>Styled Components</span>.
         </p>
         <div>
-          <a type="button" href="google.com">
-            Project
+          <a type="button" href={GITHUB} target="_blank" rel="noreferrer" >
+            Github
           </a>
-          <a type="button" href="google.com">
+          <a type="button" href={LINKEDIN} target="_blank" rel="noreferrer">
             LinkedIn
           </a>
         </div>

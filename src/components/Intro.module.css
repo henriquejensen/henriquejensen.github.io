@@ -42,6 +42,7 @@
   text-decoration: none;
   display: inline-block;
   font-family: 'Nunito', sans-serif;
+  border: 2px solid var(--accent);
 }
 
 .card a:first-child {
@@ -50,5 +51,5 @@
 
 .card a:last-child {
   background: transparent;
-  border: 2px solid var(--light-black);
+  border-color: var(--light-black);
 }
