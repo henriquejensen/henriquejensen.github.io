@@ -21,7 +21,7 @@ export default function Card({ image, alt, projectName, projectDescription, proj
           View Project
         </a>
       </div>
-      <div>
+      <div className={styles.image}>
         <img src={image} alt={alt} />
       </div>
     </section>

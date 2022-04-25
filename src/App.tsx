@@ -3,6 +3,7 @@ import './App.css';
 import LogoContainer from "./components/LogoContainer";
 import Intro from "./components/Intro";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,11 +16,9 @@ function App() {
         <Intro />
 
         <Projects />
-        <footer>
-          <section>
-            <p>Henrique Jensen 2022</p>
-          </section>
-        </footer>
+
+        <Footer />
+
       </main>
     </section>
   );
