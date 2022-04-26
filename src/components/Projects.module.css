@@ -16,4 +16,8 @@
   .container {
     margin-top: 0;
   }
+
+  .container h2 {
+    margin: 5rem 0;
+  }
 }

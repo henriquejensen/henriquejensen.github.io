@@ -4,7 +4,7 @@ import styles from './Projects.module.css'
 
 export default function Projects() {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="projects">
       <h2>Projects</h2>
       <Card
         image={Project}

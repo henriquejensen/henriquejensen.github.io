@@ -43,4 +43,8 @@
   .container {
     flex-direction: column;
   }
+
+  .content {
+    padding: 1rem 2rem;
+  }
 }

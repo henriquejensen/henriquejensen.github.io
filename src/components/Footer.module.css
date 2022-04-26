@@ -4,3 +4,9 @@
   margin-top: 9rem;
   margin-bottom: 5rem;
 }
+
+@media ( max-width: 53rem ) {
+  .container {
+    margin: 4rem;
+  }
+}

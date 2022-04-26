@@ -8,7 +8,7 @@ export default function Intro() {
 
 
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="about">
       <h2>Front end Engineer</h2>
       <section className={styles.card}>
         <h1>Hello, my name is Henrique Jensen</h1>
