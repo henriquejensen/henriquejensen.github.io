@@ -7,6 +7,7 @@
 
 .container div {
   font-weight: bold;
+  color: var(--text-color);
 }
 
 .menu ul {
@@ -14,7 +15,9 @@
 }
 
 .menu a {
+  text-decoration: none;
   margin-right: 3rem;
+  color: var(--text-color);
 }
 
 .menu a:last-child {
@@ -23,11 +26,6 @@
 
 .menu a:hover {
   background-color: var(--accent);
-}
-
-.menu a {
-  text-decoration: none;
-  color: var(--black);
 }
 
 .container img {
@@ -70,6 +68,7 @@
   .menu a {
     margin: 0;
     padding: 0.7rem;
+    color: var(--black);
   }
 
   .active {

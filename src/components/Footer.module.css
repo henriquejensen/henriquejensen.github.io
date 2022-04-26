@@ -3,6 +3,7 @@
   justify-content: center;
   margin-top: 9rem;
   margin-bottom: 5rem;
+  color: var(--text-color);
 }
 
 @media ( max-width: 53rem ) {

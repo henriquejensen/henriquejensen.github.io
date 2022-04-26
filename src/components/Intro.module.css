@@ -14,7 +14,7 @@
 
 .card {
   background-color: var(--white);
-  border: 1px solid #000000;
+  border: 1px solid var(--accent);;
 }
 
 .card h1 {
@@ -64,7 +64,6 @@
   }
 
   .container h2 {
-    color: var(--black);
     order: 2;
   }
 

@@ -4,10 +4,17 @@
 :root {
   --main-color: #E5E5E5;
   --accent: #FDC435;
+  --text-color: #000;
   --black: #000;
   --light-black: #25282B;
   --light-gray: #828282;
   --white: white;
+}
+
+.dark {
+  --main-color: #222831;
+  --accent: #00ADB5;
+  --text-color: white
 }
 
 html {

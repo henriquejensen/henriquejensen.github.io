@@ -10,6 +10,7 @@
 .container h2 {
   font-size: 3rem;
   margin-bottom: 5rem;
+  color: var(--text-color);
 }
 
 @media ( max-width: 53rem ) {
