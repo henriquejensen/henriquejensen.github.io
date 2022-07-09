@@ -143,8 +143,12 @@
 .container-toggle {
   position: absolute;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   color: var(--text-color);
   margin-top: 1rem;
+}
+
+.container-toggle > div {
+  margin-left: 5px;
 }

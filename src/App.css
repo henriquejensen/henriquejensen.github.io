@@ -14,7 +14,8 @@
 .dark {
   --main-color: #222831;
   --accent: #00ADB5;
-  --text-color: white
+  --text-color: white;
+  --light-gray: white;
 }
 
 html {
@@ -50,7 +51,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 75rem;
+  max-width: 80rem;
   margin: 0 auto;
   position: relative;
   padding: 0 1.2rem;

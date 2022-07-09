@@ -13,8 +13,9 @@
 }
 
 .card {
-  background-color: var(--white);
-  border: 1px solid var(--accent);;
+  background-color: var(--main-color);
+  border-radius: 20px;
+  color: var(--text-color);
 }
 
 .card h1 {
@@ -30,12 +31,12 @@
 }
 
 .card p span {
-  color: var(--black);
+  color: var(--accent);
   font-weight: bold;
 }
 
 .card a {
-  color: var(--black);
+  color: var(--text-color);
   padding: 0.5rem 2rem;
   background: var(--accent);
   border-radius: 8px;
@@ -52,7 +53,7 @@
 
 .card a:last-child {
   background: transparent;
-  border-color: var(--light-black);
+  border-color: var(--text-color);
 }
 
 @media ( max-width: 53rem ) {
