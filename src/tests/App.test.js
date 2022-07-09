@@ -1,9 +1,10 @@
-import { render, screen } from "@testing-library/react";
-import App from "./App";
+import { screen } from "@testing-library/react";
+import App from "../App";
+import renderWithRouter from "./helpers/renderWithRouter";
 
 describe("App", () => {
   it("should render App correctly", () => {
-    render(<App />);
+    renderWithRouter(<App />);
     const frontTitle = screen.getByRole("heading", {
       name: "Front end Engineer",
     });
