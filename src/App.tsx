@@ -1,30 +1,13 @@
-import Menu from "./components/Header";
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import LogoContainer from "./components/LogoContainer";
-import Intro from "./components/Intro";
-import Projects from "./components/Projects";
-import Footer from "./components/Footer";
-import MyToggle from "./components/Toggle";
+import Home from './pages/Home';
 
 function App() {
 
   return (
-    <section className="container-app">
-      <Menu />
-
-      <MyToggle />
-
-      <LogoContainer />
-
-      <main className="container-main">
-        <Intro />
-
-        <Projects />
-
-        <Footer />
-
-      </main>
-    </section>
+    <Routes>
+      <Route path='/' element={<Home />} />
+    </Routes>
   );
 }
 
