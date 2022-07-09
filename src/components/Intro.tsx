@@ -13,9 +13,7 @@ export default function Intro() {
       <section className={styles.card}>
         <h1>Hello, my name is Henrique Jensen</h1>
         <p>
-          I have been working as a Front end developer since 2015.
-          I like to build UI with <span>React</span>, test with <span>RTL</span>,
-          managing the state using <span>Redux</span> or <span>React Context</span> and add styles with <span>Styled Components</span>.
+          I'm a Front-End Engineer, I have more than 6 years of professional experience and really love what I do. Currently most focused in Frontend Development, with skills in popular technologies, such as <span>React</span>, <span>RTL</span>, <span>Redux</span>, <span>Typescript</span> and <span>NodeJs</span>.
         </p>
         <div>
           <a type="button" href={GITHUB} target="_blank" rel="noreferrer" >
