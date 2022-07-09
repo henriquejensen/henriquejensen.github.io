@@ -1,6 +1,12 @@
-import { render } from '@testing-library/react';
-import App from './App';
+import { render, screen } from "@testing-library/react";
+import App from "./App";
 
-test('renders learn react link', () => {
-  render(<App />);
+describe("App", () => {
+  it("should render App correctly", () => {
+    render(<App />);
+    const frontTitle = screen.getByRole("heading", {
+      name: "Front end Engineer",
+    });
+    expect(frontTitle).toBeInTheDocument();
+  });
 });
