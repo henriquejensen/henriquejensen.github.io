@@ -13,10 +13,11 @@ export default function MyToggle() {
 
 
   return (
-    <label className='container-toggle'>
+    <label className='container-toggle' htmlFor='container-toggle'>
       Mode {isDark ? 'Dark' : 'Light'}
       <Toggle
         checked={isDark}
+        id="container-toggle"
         onChange={() => setDark(p => !p)}
       />
     </label>
