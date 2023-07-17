@@ -1,13 +1,25 @@
-import { Route, Routes } from 'react-router-dom';
-import './App.css';
-import Home from './pages/Home';
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import { Suspense, lazy } from "react";
+import { CircleLoader } from "react-spinners";
+
+const Home = lazy(() => import("./pages/Home"));
 
 function App() {
-
   return (
-    <Routes>
-      <Route path='/' element={<Home />} />
-    </Routes>
+    <Suspense
+      fallback={
+        <div
+          style={{ position: "absolute", top: "40%", left: "35%", zIndex: 10 }}
+        >
+          <CircleLoader color="#36d7b7" size={150} />
+        </div>
+      }
+    >
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Suspense>
   );
 }
 
