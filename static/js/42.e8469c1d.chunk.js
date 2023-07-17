@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkhenriquejensen_github_io=self.webpackChunkhenriquejensen_github_io||[]).push([[42],{42:function(e,n,i){i.r(n),i.d(n,{default:function(){return u}});var r="Footer_container__CmmG-",t=i(184);function u(){return(0,t.jsx)("footer",{className:r,id:"contacts",children:(0,t.jsx)("p",{children:"Henrique Jensen 2022"})})}}}]);
+//# sourceMappingURL=42.e8469c1d.chunk.js.map
