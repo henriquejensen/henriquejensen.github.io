@@ -1,4 +1,3 @@
-import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Suspense, lazy } from "react";
 import { CircleLoader } from "react-spinners";
@@ -16,9 +15,7 @@ function App() {
         </div>
       }
     >
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+      <Home />
     </Suspense>
   );
 }

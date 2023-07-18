@@ -1,20 +1,20 @@
-import { screen } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import App from "../App";
-import renderWithRouter from "./helpers/renderWithRouter";
+import userEvent from "@testing-library/user-event";
 
 describe("App", () => {
-  it("should render App correctly", () => {
-    renderWithRouter(<App />);
-    const frontTitle = screen.getByRole("heading", {
+  it("should render App correctly", async () => {
+    render(<App />);
+    const frontTitle = await screen.findByRole("heading", {
       name: "Front end Engineer",
     });
     expect(frontTitle).toBeInTheDocument();
   });
 
   it("should change to white mode if toggle is inactive", async () => {
-    const { user } = renderWithRouter(<App />);
+    render(<App />);
     const toggle = screen.getByLabelText(/Mode Dark/i);
-    user.click(toggle);
+    userEvent.click(toggle);
     const newToggle = await screen.findByLabelText(/Mode Light/i);
     expect(newToggle).toBeInTheDocument();
     expect(screen.queryByLabelText(/Mode Dark/i)).not.toBeInTheDocument();
