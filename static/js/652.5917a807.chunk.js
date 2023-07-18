@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkhenriquejensen_github_io=self.webpackChunkhenriquejensen_github_io||[]).push([[652],{652:function(e,n,i){i.r(n),i.d(n,{default:function(){return u}});i(791);var t=i.p+"static/media/me.62dc3cfff31234b31137570cf1740446.svg",c="LogoContainer_container__XgOOD",s=i(184);function u(){return(0,s.jsx)("section",{className:c,children:(0,s.jsx)("img",{src:t,alt:""})})}}}]);
-//# sourceMappingURL=652.5917a807.chunk.js.map

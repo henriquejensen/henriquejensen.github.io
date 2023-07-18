@@ -1,0 +1,1 @@
+import{j as n}from"./index-fc1e0aa6.js";const o="/assets/me-b00dc97f.svg",s="_container_1690g_1",t="_background_1690g_9",c={container:s,background:t};function a(){return n.jsx("section",{className:c.container,children:n.jsx("img",{src:o,alt:""})})}export{a as default};
