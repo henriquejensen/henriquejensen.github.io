@@ -12,6 +12,8 @@ function Home() {
 
       <main className={styles.main}>
         <Intro />
+
+        <Projects />
       </main>
     </section>
   );
