@@ -4,7 +4,7 @@
   --text-color: white;
   --black: #000;
   --light-black: #25282b;
-  --light-gray: #828282;
+  --light-gray: lightgray;
   --white: white;
 }
 

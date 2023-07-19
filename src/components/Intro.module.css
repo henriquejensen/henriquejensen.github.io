@@ -1,5 +1,6 @@
 .container {
   width: 100%;
+  font-size: 1rem;
 }
 
 .container > h2 {
@@ -8,7 +9,6 @@
 
 .subtitle {
   display: flex;
-  font-size: 1rem;
   margin-bottom: 2rem;
   align-items: center;
 }
@@ -16,6 +16,36 @@
 .subtitle > hr {
   height: 1rem;
   margin-inline: 1rem;
+}
+
+.card p {
+  color: var(--light-gray);
+  margin: 2rem 0;
+}
+
+.card p span {
+  color: var(--accent);
+  font-weight: bold;
+}
+
+.card a {
+  color: var(--text-color);
+  padding: 0.5rem 2rem;
+  background: var(--accent);
+  border-radius: 8px;
+  margin: 0px 12px;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid var(--accent);
+}
+
+.card a:first-child {
+  margin-left: 0;
+}
+
+.card a:last-child {
+  background: transparent;
+  border-color: var(--text-color);
 }
 
 @media (min-width: 768px) {

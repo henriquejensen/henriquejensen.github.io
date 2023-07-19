@@ -21,4 +21,8 @@
     padding: 2rem;
     background-position: right;
   }
+
+  .main {
+    max-width: 40rem;
+  }
 }
