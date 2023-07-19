@@ -1,74 +1,28 @@
 .container {
-  max-width: 35rem;
-  min-height: 25.5rem;
-  margin-top: 6.9rem;
+  width: 100%;
 }
 
-.container h2 {
-  color: var(--accent);
-  font-size: 1.25rem;
-  font-weight: bold;
-  font-family: 'Nunito', sans-serif;
-  text-transform: uppercase;
+.container > h2 {
+  font-size: 2.5rem;
 }
 
-.card {
-  background-color: var(--main-color);
-  border-radius: 20px;
-  color: var(--text-color);
+.subtitle {
+  display: flex;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  align-items: center;
 }
 
-.card h1 {
-  font-family: 'Playfair Display', serif;
-  font-size: 4rem;
+.subtitle > hr {
+  height: 1rem;
+  margin-inline: 1rem;
 }
 
-.card p {
-  color: var(--light-gray);
-  font-family: 'Nunito', sans-serif;
-  font-size: 1.5rem;
-  margin: 2rem 0;
-}
-
-.card p span {
-  color: var(--accent);
-  font-weight: bold;
-}
-
-.card a {
-  color: var(--text-color);
-  padding: 0.5rem 2rem;
-  background: var(--accent);
-  border-radius: 8px;
-  margin: 0px 12px;
-  text-decoration: none;
-  display: inline-block;
-  font-family: 'Nunito', sans-serif;
-  border: 2px solid var(--accent);
-}
-
-.card a:first-child {
-  margin-left: 0;
-}
-
-.card a:last-child {
-  background: transparent;
-  border-color: var(--text-color);
-}
-
-@media ( max-width: 53rem ) {
-  .container {
-    max-width: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+@media (min-width: 768px) {
+  .container > h2 {
+    font-size: 4rem;
   }
-
-  .container h2 {
-    order: 2;
-  }
-
-  .card h1 {
-    font-size: 3rem;
+  .subtitle {
+    font-size: 1.5rem;
   }
 }
