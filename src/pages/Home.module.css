@@ -20,13 +20,26 @@
   max-height: 40rem;
 }
 
+@media (min-width: 410px) {
+  .main {
+    margin-top: 20%;
+  }
+}
+
 @media (min-width: 768px) {
+  .main {
+    margin-top: 10%;
+  }
+
   .container {
     padding: 2rem;
     background-position: right;
   }
+}
 
-  .main {
-    max-width: 40rem;
+@media (min-width: 1280px) {
+  .container {
+    padding-inline: 10%;
+    margin: 0 auto;
   }
 }

@@ -1,16 +1,15 @@
 .container {
   width: 100%;
+  text-align: center;
 }
 
 .container > h2 {
-  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  text-align: initial;
+  text-transform: uppercase;
 }
 
 .projects {
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
-  width: 100%;
-  gap: 1rem;
-  overflow-x: scroll;
+  --swiper-theme-color: var(--white);
 }

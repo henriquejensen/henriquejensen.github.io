@@ -17,6 +17,7 @@
     "react-dom": "^18.2.0",
     "react-spinners": "^0.13.8",
     "react-toggle": "https://github.com/aaronshaf/react-toggle",
+    "swiper": "^10.0.4",
     "typescript": "^4.7.4"
   },
   "scripts": {

@@ -27,7 +27,7 @@
 }
 
 .profile > img {
-  border-radius: 50%;
+  border-radius: 0.8rem;
 }
 
 @media (min-width: 768px) {
