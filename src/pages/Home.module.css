@@ -6,6 +6,8 @@
   background-position: center;
   overflow-y: hidden;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .main {
@@ -13,7 +15,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 15%;
+  margin-top: 10%;
+  flex: 1;
+  max-height: 40rem;
 }
 
 @media (min-width: 768px) {

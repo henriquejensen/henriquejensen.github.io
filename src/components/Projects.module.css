@@ -1,8 +1,5 @@
 .container {
-  position: absolute;
-  bottom: 1rem;
-  width: 90%;
-  left: 5%;
+  width: 100%;
 }
 
 .container > h2 {
