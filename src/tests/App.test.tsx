@@ -1,22 +1,21 @@
 import { render, screen } from "@testing-library/react";
 import App from "../App";
 import userEvent from "@testing-library/user-event";
+import { formatDate } from "../helpers";
 
 describe("App", () => {
   it("should render App correctly", async () => {
     render(<App />);
     const frontTitle = await screen.findByRole("heading", {
-      name: "Front end Engineer",
+      name: "Henrique Jensen",
     });
     expect(frontTitle).toBeInTheDocument();
   });
 
-  it("should change to white mode if toggle is inactive", async () => {
+  it("should show correct Date", async () => {
     render(<App />);
-    const toggle = screen.getByLabelText(/Mode Dark/i);
-    userEvent.click(toggle);
-    const newToggle = await screen.findByLabelText(/Mode Light/i);
-    expect(newToggle).toBeInTheDocument();
-    expect(screen.queryByLabelText(/Mode Dark/i)).not.toBeInTheDocument();
+    const dateFormated = formatDate(new Date());
+    const date = await screen.findByText(dateFormated);
+    expect(date).toBeInTheDocument();
   });
 });
