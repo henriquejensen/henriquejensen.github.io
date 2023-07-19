@@ -12,11 +12,13 @@
     "@types/react-dom": "^18.0.6",
     "@types/react-toggle": "^4.0.3",
     "@vitejs/plugin-react-swc": "^3.3.2",
+    "animate.css": "^4.1.1",
     "jsdom": "^22.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-spinners": "^0.13.8",
     "react-toggle": "https://github.com/aaronshaf/react-toggle",
+    "sweetalert2": "^11.7.18",
     "swiper": "^10.0.4",
     "typescript": "^5.1.6"
   },

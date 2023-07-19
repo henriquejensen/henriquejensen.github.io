@@ -12,7 +12,7 @@ function Menu() {
         <p>{formatDate(new Date())}</p>
       </div>
 
-      <div>
+      <div className={styles.profile}>
         <img alt="profile icon" src={AVATAR_URL} />
       </div>
     </header>

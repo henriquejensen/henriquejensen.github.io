@@ -41,6 +41,7 @@ export default function Projects() {
                 projectName={project.title}
                 projectDescription={project.description}
                 projectLink={project.link}
+                repositoryLink={project.repository}
               />
             </SwiperSlide>
           ))}
