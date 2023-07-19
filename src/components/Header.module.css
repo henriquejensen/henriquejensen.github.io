@@ -1,80 +1,30 @@
 .container {
+  font-size: 1.5rem;
   display: flex;
   justify-content: space-between;
-  padding: 1.2rem 0;
   width: 100%;
 }
 
-.container div {
-  font-weight: bold;
-  color: var(--text-color);
-}
-
-.menu ul {
+.logo {
   display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 
-.menu a {
-  text-decoration: none;
-  margin-right: 3rem;
-  color: var(--text-color);
+.logo > hr {
+  height: 2rem;
 }
 
-.menu a:last-child {
-  margin-right: 0;
+.logo > img {
+  width: 9rem;
+  height: auto;
 }
 
-.menu a:hover {
-  background-color: var(--accent);
+.profile {
+  width: 4rem;
 }
 
-.container img {
-  display: none;
-}
-
-@media ( max-width: 53rem ) {
-  .container {
-    position: fixed;
-    top: 2rem;
-    z-index: 3;
-    padding: 1rem;
-  }
-
-  .container img {
-    width: 2.5rem;
-    cursor: pointer;
-    display: block;
-    z-index: 1;
-  }
-
-  .menu {
-    position: absolute;
-    display: none;
-    opacity: 0;
-    transition: all;
-  }
-
-  .menu {
-    position: absolute;
-    background-color: var(--white);
-  }
-
-  .menu ul {
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-  }
-
-  .menu a {
-    margin: 0;
-    padding: 0.7rem;
-    color: var(--black);
-  }
-
-  .active {
-    display: block;
-    opacity: 1;
-    transition: all;
-  }
-  
+.profile > img {
+  border-radius: 50%;
 }

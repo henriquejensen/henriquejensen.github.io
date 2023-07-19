@@ -1,6 +1,6 @@
-import styles from './Header.module.css';
-import menu from '../images/menu.svg';
-import { useState } from 'react';
+import styles from "./Header.module.css";
+import { useState } from "react";
+import brand from "../images/brand.png";
 
 function Menu() {
   const [showMenu, setShowMenu] = useState(false);
@@ -8,20 +8,23 @@ function Menu() {
   let menuStyles = styles.menu;
 
   if (showMenu) {
-    menuStyles = `${menuStyles} ${styles.active}`
+    menuStyles = `${menuStyles} ${styles.active}`;
   }
 
   return (
     <header className={styles.container}>
-      <div>Henrique Jensen</div>
-      <nav className={menuStyles}>
-        <ul>
-          <a href='#about'><li>About</li></a>
-          <a href='#projects'><li>Projects</li></a>
-          <a href='#contacts'><li>Contacts</li></a>
-        </ul>
-      </nav>
-      <img src={menu} alt="menu" onClick={() => setShowMenu(p => !p)} />
+      <div className={styles.logo}>
+        <img src={brand} alt="Jensen logo" />
+        <hr />
+        <p>Friday July 8th</p>
+      </div>
+
+      <div className={styles.profile}>
+        <img
+          alt="profile icon"
+          src="https://avatars.githubusercontent.com/u/4885094?v=4"
+        />
+      </div>
     </header>
   );
 }

@@ -1,9 +1,9 @@
 .container {
   position: absolute;
   z-index: -1;
-  max-width: 45rem;
-  max-height: 40rem;
-  right: -10%;
+  width: 100svw;
+  height: 100svh;
+  object-fit: cover;
 }
 
 .background {

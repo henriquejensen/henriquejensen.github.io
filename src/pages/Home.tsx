@@ -5,14 +5,11 @@ const LogoContainer = lazy(() => import("../components/LogoContainer"));
 const Intro = lazy(() => import("../components/Intro"));
 const Projects = lazy(() => import("../components/Projects"));
 const Footer = lazy(() => import("../components/Footer"));
-const MyToggle = lazy(() => import("../components/Toggle"));
 
 function Home() {
   return (
     <section className="container-app">
       <Menu />
-
-      <MyToggle />
 
       <LogoContainer />
 
