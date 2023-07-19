@@ -13,3 +13,11 @@
 .projects {
   --swiper-theme-color: var(--white);
 }
+
+
+@media (min-width: 640px) {
+  .projects:hover img {
+    opacity: 0.3;
+  }
+}
+

@@ -2,17 +2,22 @@
   margin: 1rem;
 }
 
-.container > img{
-  width: 9.5rem;
-  height: 5rem;
+.container > img {
+  width: 11rem;
+  height: 5.5rem;
   transition: 0.5s;
+  border-radius: 0.8rem;
 }
 
 .container:hover {
   transform: scale(1.2);
   transition: 0.5s;
   margin-inline: 1rem;
-  z-index: 1000;
+}
+
+.container > img:hover {
+  transition: 0.5s;
+  opacity: 1 !important;
 }
 
 .container > img {
@@ -21,7 +26,7 @@
 
 @media (min-width: 768px) {
   .container > img {
-    width: calc(9.5rem * 1.3);
-    height: calc(5rem * 1.3);
+    width: calc(11rem * 1.3);
+    height: calc(5.5rem * 1.3);
   }
 }

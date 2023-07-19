@@ -22,12 +22,9 @@
   height: auto;
 }
 
-.profile {
-  width: 4rem;
-}
-
 .profile > img {
   border-radius: 0.8rem;
+  width: 4rem;
 }
 
 @media (min-width: 768px) {

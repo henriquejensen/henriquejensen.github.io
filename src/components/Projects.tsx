@@ -2,14 +2,9 @@ import { projects } from "../contants";
 import Card from "./Card";
 import styles from "./Projects.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import { useViewport } from "../hooks/useViewport";
 import { Navigation } from "swiper/modules";
 
 export default function Projects() {
-  const [windowDimensions] = useViewport();
-  const { width } = windowDimensions;
-
   return (
     <section className={styles.container}>
       <h2>Projects</h2>

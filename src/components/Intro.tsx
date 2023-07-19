@@ -9,7 +9,7 @@ export default function Intro() {
         <hr />
         <span>TypeScript</span>
         <hr />
-        <span>NodeJs</span>
+        <span>Node.js</span>
       </div>
       <h2>Henrique Jensen</h2>
       <section className={styles.card}>
