@@ -1,1 +1,0 @@
-import{j as n}from"./index-fc1e0aa6.js";const e="_container_17yon_1",t={container:e};function r(){return n.jsx("footer",{className:t.container,id:"contacts",children:n.jsx("p",{children:"Henrique Jensen 2022"})})}export{r as default};
