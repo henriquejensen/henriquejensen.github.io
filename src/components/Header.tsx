@@ -1,6 +1,7 @@
 import styles from "./Header.module.css";
 import { useState } from "react";
 import brand from "../images/brand.png";
+import { formatDate } from "../helpers";
 
 function Menu() {
   const [showMenu, setShowMenu] = useState(false);
@@ -16,7 +17,7 @@ function Menu() {
       <div className={styles.logo}>
         <img src={brand} alt="Jensen logo" />
         <hr />
-        <p>Friday July 8th</p>
+        <p>{formatDate(new Date())}</p>
       </div>
 
       <div className={styles.profile}>
