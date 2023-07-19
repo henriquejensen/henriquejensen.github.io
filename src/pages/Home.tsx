@@ -1,17 +1,15 @@
 import { lazy } from "react";
+import styles from "./Home.module.css";
 
 const Menu = lazy(() => import("../components/Header"));
-const LogoContainer = lazy(() => import("../components/LogoContainer"));
 const Intro = lazy(() => import("../components/Intro"));
 const Projects = lazy(() => import("../components/Projects"));
 const Footer = lazy(() => import("../components/Footer"));
 
 function Home() {
   return (
-    <section className="container-app">
+    <section className={styles.container}>
       <Menu />
-
-      <LogoContainer />
 
       <main className="container-main">
         <Intro />

@@ -47,15 +47,6 @@ body {
   background-color: var(--main-color);
 }
 
-.container-app {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto;
-  position: relative;
-  overflow-x: hidden;
-}
-
 .container-main {
   width: 100%;
 }

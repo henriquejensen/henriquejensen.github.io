@@ -1,0 +1,11 @@
+
+
+.container {
+  background-image: url('../images/back.svg');
+  background-repeat: no-repeat;
+  height: 100svh;
+  background-size: cover;
+  background-position: right;
+  overflow-y: hidden;
+  padding: 2rem;
+}
