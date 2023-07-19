@@ -1,17 +1,9 @@
 import styles from "./Header.module.css";
-import { useState } from "react";
 import brand from "../images/brand.png";
 import { formatDate } from "../helpers";
+import { AVATAR_URL, GITHUB_URL } from "../contants";
 
 function Menu() {
-  const [showMenu, setShowMenu] = useState(false);
-
-  let menuStyles = styles.menu;
-
-  if (showMenu) {
-    menuStyles = `${menuStyles} ${styles.active}`;
-  }
-
   return (
     <header className={styles.container}>
       <div className={styles.logo}>
@@ -21,10 +13,7 @@ function Menu() {
       </div>
 
       <div className={styles.profile}>
-        <img
-          alt="profile icon"
-          src="https://avatars.githubusercontent.com/u/4885094?v=4"
-        />
+        <img alt="profile icon" src={AVATAR_URL} />
       </div>
     </header>
   );

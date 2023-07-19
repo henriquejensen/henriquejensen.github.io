@@ -1,7 +1,5 @@
+import { GITHUB_URL, LINKEDIN_URL } from "../contants";
 import styles from "./Intro.module.css";
-
-const LINKEDIN = "https://br.linkedin.com/in/henriquejensen";
-const GITHUB = "https://github.com/henriquejensen";
 
 export default function Intro() {
   return (
@@ -23,10 +21,10 @@ export default function Intro() {
           <span>Typescript</span> and <span>NodeJs</span>.
         </p>
         <div>
-          <a type="button" href={GITHUB} target="_blank" rel="noreferrer">
+          <a type="button" href={GITHUB_URL} target="_blank" rel="noreferrer">
             Github
           </a>
-          <a type="button" href={LINKEDIN} target="_blank" rel="noreferrer">
+          <a type="button" href={LINKEDIN_URL} target="_blank" rel="noreferrer">
             LinkedIn
           </a>
         </div>
