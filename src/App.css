@@ -1,11 +1,12 @@
 :root {
   --main-color: #e5e5e5;
-  --accent: #fdc435;
+  --accent: #d40d1f;
   --text-color: white;
   --black: #000;
   --light-black: #25282b;
   --light-gray: lightgray;
   --white: white;
+  --yellow: #fdc435;
 }
 
 .dark {

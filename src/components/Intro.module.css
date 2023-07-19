@@ -24,7 +24,7 @@
 }
 
 .card p span {
-  color: var(--accent);
+  color: var(--yellow);
   font-weight: bold;
 }
 
