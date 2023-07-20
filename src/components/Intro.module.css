@@ -15,7 +15,17 @@
   align-items: center;
 }
 
-.subtitle > hr {
+.subtitle > span {
+  display: flex;
+  align-items: center;
+}
+
+.subtitle > span > span {
+  color: var(--yellow);
+  font-weight: bold;
+}
+
+.subtitle  hr {
   height: 1rem;
   margin-inline: 1rem;
 }
@@ -25,13 +35,8 @@
 }
 
 .card p {
-  color: var(--light-gray);
   margin: 2rem 0;
-}
-
-.card p span {
-  color: var(--yellow);
-  font-weight: bold;
+  color: var(--light-gray);
 }
 
 .card a {

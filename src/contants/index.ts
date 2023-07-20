@@ -1,6 +1,7 @@
 import mortalKombat3 from "../images/projects/mortal.webp";
 import memoryGame from "../images/projects/memory-game.webp";
 import imageUploader from "../images/projects/image-uploader.webp";
+import brand from "../images/brand.png";
 
 export type Project = {
   id: number;
@@ -11,9 +12,20 @@ export type Project = {
   image: string;
 };
 
-export const AVATAR_URL = "https://avatars.githubusercontent.com/u/4885094?v=4";
-export const GITHUB_URL = "https://github.com/henriquejensen";
-export const LINKEDIN_URL = "https://br.linkedin.com/in/henriquejensen";
+const AVATAR_URL = "https://avatars.githubusercontent.com/u/4885094?v=4";
+const GITHUB_URL = "https://github.com/henriquejensen";
+const LINKEDIN_URL = "https://br.linkedin.com/in/henriquejensen";
+
+export const profile = {
+  logo: brand,
+  name: "Henrique Jensen",
+  mainStack: ["React", "Typescript", "Node.js"],
+  description:
+    "I'm a software engineer with 6+ years of experience in web development. My extensive knowledge and experience in React, React Native, Redux, Typescript, and NodeJs has allowed me to create high-performing and user-friendly applications that meet the needs of my clients.",
+  avatar: AVATAR_URL,
+  github: GITHUB_URL,
+  linkedin: LINKEDIN_URL,
+};
 
 export const projects: Project[] = [
   {
@@ -41,5 +53,5 @@ export const projects: Project[] = [
     description:
       "A image uploader app made with NextJs, TailWindCSS, Multer and AWS S3",
     image: imageUploader,
-  }
+  },
 ];

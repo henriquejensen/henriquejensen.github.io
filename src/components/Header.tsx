@@ -1,19 +1,18 @@
 import styles from "./Header.module.css";
-import brand from "../images/brand.png";
 import { formatDate } from "../helpers";
-import { AVATAR_URL, GITHUB_URL } from "../contants";
+import { profile } from "../contants";
 
 function Menu() {
   return (
     <header className={styles.container}>
       <div className={styles.logo}>
-        <img src={brand} alt="Jensen logo" />
+        <img src={profile.logo} alt={`${profile.name} logo`} />
         <hr />
         <p>{formatDate(new Date())}</p>
       </div>
 
       <div className={styles.profile}>
-        <img alt="profile icon" src={AVATAR_URL} />
+        <img alt="profile icon" src={profile.avatar} />
       </div>
     </header>
   );
