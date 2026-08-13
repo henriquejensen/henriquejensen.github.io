@@ -1,3 +1,5 @@
+import portrait from "./images/henrique-jensen.png";
+
 const expertise = [
   { number: "01", title: "Frontend Architecture", description: "Scalable application foundations, clear boundaries, shared platforms, and pragmatic technical decisions." },
   { number: "02", title: "Design Systems", description: "Multi-brand components, design tokens, Storybook, and workflows that keep design and engineering aligned." },
@@ -35,10 +37,16 @@ function App() {
               <a className="button button-secondary" href="https://github.com/henriquejensen" target="_blank" rel="noreferrer">GitHub <Arrow /></a>
             </div>
           </div>
-          <aside className="hero-note" aria-label="Professional summary">
-            <p>Based in</p><strong>Bragança Paulista, Brazil</strong>
-            <p>Currently focused on</p><strong>Architecture · Design systems · Accessibility</strong>
-            <div className="availability"><span /> Open to conversations</div>
+          <aside className="hero-profile" aria-label="Professional summary">
+            <figure className="portrait">
+              <img src={portrait} alt="Henrique Jensen wearing a suit" />
+              <figcaption>Frontend architect &amp; technical leader</figcaption>
+            </figure>
+            <div className="hero-note">
+              <p>Based in</p><strong>Bragança Paulista, Brazil</strong>
+              <p>Currently focused on</p><strong>Architecture · Design systems · Accessibility</strong>
+              <div className="availability"><span /> Open to conversations</div>
+            </div>
           </aside>
           <div className="hero-index" aria-hidden="true">01 / 04</div>
         </section>
