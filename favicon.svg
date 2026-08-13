@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Henrique Jensen</title>
+  <rect width="64" height="64" rx="14" fill="#101114"/>
+  <text x="9" y="42" fill="#f5f3ee" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" letter-spacing="-2">HJ</text>
+  <circle cx="53" cy="42" r="4" fill="#7868e6"/>
+</svg>
