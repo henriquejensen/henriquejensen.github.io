@@ -1,21 +1,23 @@
 import { render, screen } from "@testing-library/react";
 import App from "../App";
-import userEvent from "@testing-library/user-event";
-import { formatDate } from "../helpers";
 
 describe("App", () => {
-  it("should render App correctly", async () => {
+  it("renders Henrique's positioning and primary navigation", async () => {
     render(<App />);
-    const frontTitle = await screen.findByRole("heading", {
-      name: "Henrique Jensen",
-    });
-    expect(frontTitle).toBeInTheDocument();
+    expect(await screen.findByRole("heading", {
+      name: /Henrique Jensen/i,
+    })).toBeInTheDocument();
+    expect(screen.getByRole("navigation", { name: "Main navigation" })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /explore my work/i })).toHaveAttribute("href", "#work");
+    expect(screen.getByRole("link", { name: /résumé/i })).toHaveAttribute("href", "/resume-henrique-jensen.pdf");
   });
 
-  it("should show correct Date", async () => {
+  it("renders the selected case studies", () => {
     render(<App />);
-    const dateFormated = formatDate(new Date());
-    const date = await screen.findByText(dateFormated);
-    expect(date).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Multi-brand frontend platform" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Accessible kiosk experience" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Local RAG for Moodle" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Computer Science" })).toBeInTheDocument();
+    expect(screen.getByText("Professional working proficiency")).toBeInTheDocument();
   });
 });
