@@ -13,6 +13,14 @@ const work = [
   { type: "Applied AI research", title: "Local RAG for Moodle", description: "A privacy-oriented question-answering system that indexes course documents and runs language models locally in resource-constrained environments.", tags: ["Next.js", "FastAPI", "Ollama", "ChromaDB"], accent: "orange" },
 ];
 
+const impact = [
+  { title: "Shared foundations", description: "Architecture spanning multiple applications and brands through reusable libraries and design tokens." },
+  { title: "Inclusive by design", description: "Accessibility embedded into components, navigation, focus management, and hardware integrations." },
+  { title: "Teams with context", description: "Technical decisions made visible through documentation, presentations, standards, and mentoring." },
+];
+
+const toolkit = ["React", "TypeScript", "Nx", "Design Tokens", "Storybook", "React Aria", "Next.js", "FastAPI", "Python"];
+
 const Arrow = () => <span aria-hidden="true">↗</span>;
 
 function App() {
@@ -21,7 +29,7 @@ function App() {
       <header className="site-header">
         <a className="brand" href="#top" aria-label="Henrique Jensen, home">HJ<span>.</span></a>
         <nav aria-label="Main navigation">
-          <a href="#about">About</a><a href="#work">Work</a><a href="#experience">Experience</a>
+          <a href="#about">About</a><a href="#work">Work</a><a href="#experience">Experience</a><a href="#profile">Profile</a>
         </nav>
         <a className="header-cta" href="https://www.linkedin.com/in/henriquejensen/" target="_blank" rel="noreferrer">Let&apos;s talk <Arrow /></a>
       </header>
@@ -35,6 +43,7 @@ function App() {
             <div className="hero-actions">
               <a className="button button-primary" href="#work">Explore my work <Arrow /></a>
               <a className="button button-secondary" href="https://github.com/henriquejensen" target="_blank" rel="noreferrer">GitHub <Arrow /></a>
+              <a className="button button-secondary" href="/resume-henrique-jensen.pdf" download>Résumé ↓</a>
             </div>
           </div>
           <aside className="hero-profile" aria-label="Professional summary">
@@ -67,6 +76,14 @@ function App() {
           </div>
         </section>
 
+        <section className="impact" aria-labelledby="impact-title">
+          <div className="section-heading"><p className="section-label">Impact</p><h2 id="impact-title">Architecture that increases a team&apos;s capacity.</h2></div>
+          <div className="impact-grid">
+            {impact.map((item) => <article key={item.title}><h3>{item.title}</h3><p>{item.description}</p></article>)}
+          </div>
+          <blockquote>“My role goes beyond implementation: I create technical direction, make architectural decisions visible, mentor engineers, and help teams operate with greater autonomy.”</blockquote>
+        </section>
+
         <section className="selected-work" id="work" aria-labelledby="work-title">
           <div className="section-heading"><p className="section-label">Selected work</p><h2 id="work-title">Systems, not just screens.</h2></div>
           <div className="work-list">
@@ -89,9 +106,19 @@ function App() {
           </div>
         </section>
 
+        <section className="profile-details" id="profile" aria-labelledby="profile-title">
+          <div className="section-heading"><p className="section-label">Profile</p><h2 id="profile-title">Learning, teaching, and sharing context.</h2></div>
+          <div className="profile-grid">
+            <article><p className="detail-label">Education</p><h3>Computer Science</h3><p>Bachelor&apos;s degree · UFLA</p><h3>IT Management</h3><p>Postgraduate degree · IFSP</p></article>
+            <article><p className="detail-label">Teaching</p><h3>Corporate instructor</h3><p>Data, Python, artificial intelligence, Power BI, and software development for professional audiences.</p><h3>Mentoring</h3><p>Architecture, code quality, documentation, and developer growth.</p></article>
+            <article><p className="detail-label">Languages</p><h3>Portuguese</h3><p>Native</p><h3>English</h3><p>Professional working proficiency</p></article>
+          </div>
+          <div className="toolkit"><p className="detail-label">Core toolkit</p><ul>{toolkit.map((item) => <li key={item}>{item}</li>)}</ul></div>
+        </section>
+
         <section className="knowledge" aria-labelledby="knowledge-title">
-          <p className="section-label">Beyond delivery</p>
-          <div><h2 id="knowledge-title">Writing, teaching, and making architecture visible.</h2><p>I believe senior engineering is also about sharing context and helping others make better decisions. My interests include frontend architecture, design systems, accessible interfaces, local AI, and engineering leadership.</p><a href="https://www.linkedin.com/in/henriquejensen/recent-activity/all/" target="_blank" rel="noreferrer">Follow my work on LinkedIn <Arrow /></a></div>
+          <p className="section-label">Writing &amp; speaking</p>
+          <div><h2 id="knowledge-title">Making architecture visible.</h2><p>I write, teach, and present about multi-brand design systems, design tokens, frontend platforms, accessible kiosk experiences, event-driven architecture, and local AI. My academic work explores a RAG-based assistant integrated with Moodle and locally executed language models.</p><a href="https://www.linkedin.com/in/henriquejensen/recent-activity/all/" target="_blank" rel="noreferrer">Follow my work on LinkedIn <Arrow /></a></div>
         </section>
 
         <section className="contact" aria-labelledby="contact-title">
