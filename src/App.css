@@ -38,9 +38,6 @@ h1 { font-size:clamp(76px,10vw,146px); line-height:.82; font-weight:500; margin:
 .hero-note { border-top:1px solid var(--ink); padding:22px 0; }
 .hero-note p { font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:1px; margin:0 0 6px; }
 .hero-note strong { display:block; font-size:14px; line-height:1.5; font-weight:500; margin-bottom:22px; }
-.availability { display:flex; gap:9px; align-items:center; font-size:12px; }
-.availability span { width:8px; height:8px; border-radius:50%; background:#44a56d; box-shadow:0 0 0 4px #dcebdd; }
-.hero-index { position:absolute; right:0; top:28px; font-size:11px; color:var(--muted); letter-spacing:1px; }
 
 .statement { border-top:1px solid var(--line); display:grid; grid-template-columns:1fr 4fr; padding:120px 0; }
 .section-label { margin:7px 0 0; color:var(--muted); }

@@ -43,12 +43,10 @@ function App() {
               <figcaption>Frontend architect &amp; technical leader</figcaption>
             </figure>
             <div className="hero-note">
-              <p>Based in</p><strong>Bragança Paulista, Brazil</strong>
+              <p>Based in</p><strong>Brazil</strong>
               <p>Currently focused on</p><strong>Architecture · Design systems · Accessibility</strong>
-              <div className="availability"><span /> Open to conversations</div>
             </div>
           </aside>
-          <div className="hero-index" aria-hidden="true">01 / 04</div>
         </section>
 
         <section className="statement" id="about" aria-labelledby="about-title">
