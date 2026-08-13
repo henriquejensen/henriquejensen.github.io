@@ -1,10 +1,19 @@
-# My personal website
+# Henrique Jensen — Personal website
 
-## Stacks
+A personal portfolio focused on frontend architecture, design systems, accessibility, technical leadership, and applied AI.
 
-- React
-- RTL
-- Typescript
-- Styled components
-- Jest
-- RTL
+## Development
+
+```bash
+npm install
+npm start
+```
+
+## Quality checks
+
+```bash
+npm test -- --run
+npm run build
+```
+
+Built with React, TypeScript, and Vite. Published with GitHub Pages.
